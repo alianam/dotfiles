@@ -1,0 +1,7 @@
+[user]
+	email = aliana@betterment.com
+	name = Aliana Melendez
+
+[alias]
+	publish = !"git push --set-upstream origin $(git current-branch)"
+	current-branch = symbolic-ref --short HEAD
